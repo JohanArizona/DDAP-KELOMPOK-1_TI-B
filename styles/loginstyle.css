@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+    overflow-x: hidden;
+}
+
+.login {
+    height: 100vh;
+}
+
+.header h1 {
+    font-style: normal;
+    font-weight: 600;
+    line-height: 48px;
+    color: #003266;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 149.765%;
+    letter-spacing: 0.24px;
+    width: 440px;
+    margin-left: 70px;
+}
+
+.mt-lg-2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: #003266;
+    width: 440px;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.daftar {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 21px;
+    width: 440px;
+}
+
+.header p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #737373;
+    margin-bottom: 0;
+}
+
+.login-form label {
+    color: #003266;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.1px;
+}
+
+.login-form input {
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 8px;
+    display: flex;
+    width: 420px;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 59px;
+}
+
+.login-form a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #737373;
+    margin: 10px 0px 10px 0px;
+    display: block;
+}
+
+.login-form .signin {
+    width: 420px;
+    height: 59px;
+    background: #027FFF;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.login-form .signin-google {
+    width: 420px;
+    height: 59px;
+    background: #FFFFFF;
+    border: 2px solid #027FFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #027FFF;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.login-form {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #737373;
+    margin-left: 50px;
+}
+
+#togglePassword {
+    float: right;
+    margin-left: -25px;
+    margin-top: -40px;
+    right: -150px;
+    position: relative;
+    z-index: 2;
+    font-size: 24px;
+}
+
+.login-form span a {
+    font-weight: 600;
+}
+
+.login {
+    flex-direction: column-reverse;
+}
+
+.login-left, .login-right {
+    width: 100%;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .login {
+        flex-direction: row;
+    }
+
+    .login-left, .login-right {
+        width: 50%;
+    }
+}
+
+.carousel-item {
+    height: 100vh;
+    margin-right: 70px;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* Atur warna untuk indikator aktif */
+.carousel-indicators .active {
+    background-color: #027FFF !important;
+    width: 53px !important;
+    height: 20px !important;
+    border-radius: 20px !important;
+}
+
+/* Atur warna untuk indikator non-aktif */
+.carousel-indicators button {
+    background-color: #E3E3E3 !important;
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 100% !important;
+}
+
+
+
+

@@ -1,0 +1,118 @@
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+.login {
+    height: 100vh;
+}
+
+.header h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.header p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #737373;
+    margin-bottom: 0;
+}
+
+.login-form label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    margin-top: 20px;
+}
+
+.login-form input{
+    background: #FFFFFF;
+    border: 1px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.login-form a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #737373;
+    margin: 10px 0px 10px 0px;
+    display: block;
+}
+
+.login-form .signin {
+    width: 100%;
+    height: 42px;
+    background: #000000 ;
+    border-radius: 8px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.login-form .signin-google {
+    width: 100%;
+    height: 42px 100%;
+    background: #FFFFFF ;
+    border: 1px solid #BCBCBC;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #000000;
+    margin: 10px 0px 20px 0px;
+}
+
+.login-form {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #737373;
+}
+
+.login-form span a {
+    font-weight: 600;
+}
+
+.login {
+    flex-direction: column-reverse;
+}
+
+.login-left, .login-right {
+    width: 100%;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+.signin, .signin-google {
+    width: 100%;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .login {
+        flex-direction: row;
+    }
+    .login-left, .login-right {
+        width: 100%;
+    }
+}
+
+.carousel-item {
+    height: 100vh; 
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

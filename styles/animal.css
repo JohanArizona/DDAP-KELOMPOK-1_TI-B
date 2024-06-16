@@ -1,0 +1,183 @@
+.hero-animal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../assets/bg-volunteer.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 108px;
+    box-sizing: border-box;
+
+    .hero-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 72px 70px 53px 70px;
+        box-sizing: border-box;
+    }
+
+    .hero-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 36px;
+        color: #003266;
+        box-sizing: border-box;
+
+        .hero-text {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            width: 600px;
+            box-sizing: border-box;
+        }
+
+        button {
+            width: 310px;
+            padding-block: 8px;
+            border-radius: 8px;
+            color: #FFFFFF;
+            background-color: #027FFF;
+            box-sizing: border-box;
+        }
+    }
+}
+
+.animal-container {
+    background-image: url('../assets/bg-animal.png');
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+
+    .animal-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 110px 70px 48px 70px;
+        gap: 40px;
+        box-sizing: border-box;
+
+        .content-1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0px;
+            box-sizing: border-box;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                align-items: center;
+                text-align: center;
+                width: 434px;
+                height: 576px;
+                padding: 60px 85px;
+                gap: 18px;
+                color: #FFFFFF;
+                box-sizing: border-box;
+            }
+
+            .card-1 {
+                background-image: url('../assets/card-1.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                border-radius: 10px 0 0 10px;
+                box-sizing: border-box;
+            }
+
+            .card-2 {
+                background-image: url('../assets/card-2.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                box-sizing: border-box;
+            }
+
+            .card-3 {
+                background-image: url('../assets/card-3.png');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                border-radius: 0 10px 10px 0;
+                box-sizing: border-box;
+            }
+        }
+
+        button {
+            color: #FFFFFF;
+            background-color: #027FFF;
+            padding: 8px 68px;
+            border-radius: 8px;
+            box-sizing: border-box;
+        }
+
+        .content-2 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 20px;
+            box-sizing: border-box;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                width: 420px;
+                height: 420px;
+                padding: 20px;
+                gap: 20px;
+                background-color: #FFFFFF;
+                border: 1px solid #027FFF;
+                border-radius: 28px;
+                box-sizing: border-box;
+
+                button {
+                    padding-block: 12px;
+                    color: #2F234F;
+                    background-color: #FFFFFF;
+                    border: 1px solid #027FFF;
+                    border-radius: 18px;
+                }
+
+                .card-img {
+                    display: flex;
+                    align-items: flex-end;
+                    width: 380px;
+                    height: 253px;
+                    border-radius: 18px 18px 0 0;
+                    box-sizing: border-box;
+
+                    .card-tag {
+                        display: flex;
+                        align-items: center;
+                        width: 180px;
+                        height: 40px;
+                        gap: 8px;
+                        background-color: #FFFFFF;
+                        border-radius: 0 22px 22px 0;
+                    }
+                }
+            }
+
+            .card-1 .card-img {
+                background-image: url('../assets/penyu-tempayang.png');
+            }
+
+            .card-2 .card-img {
+                background-image: url('../assets/patin.png');
+            }
+
+            .card-3 .card-img {
+                background-image: url('../assets/paus-bungkuk.png');
+            }
+        }
+    }
+}

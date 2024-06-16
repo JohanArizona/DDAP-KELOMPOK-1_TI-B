@@ -1,0 +1,632 @@
+.hero-donation {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../assets/hero-donation.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+
+    .hero-container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+        box-sizing: border-box;
+        gap: 24px;
+        margin-top: 280px;
+        padding-inline: 70px;
+    }
+
+    .hero-text {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        width: 620px;
+        gap: 4px;
+        
+        h1 {
+            color: #FFFFFF;
+            font-size: 50px;
+            font-weight: 700;
+        }
+    
+        p {
+            color: #FFFFFF;
+            font-size: 20px;
+            font-weight: normal;
+        }
+    }
+
+    .search-bar {
+        display: flex;
+        width: 330px;
+        align-items: center;
+        padding: 10px 24px;
+        background-color: #FFFFFF;
+        border-radius: 10px;
+        box-sizing: border-box;
+
+        input[type=search] {
+            font-size: 20px;
+            font-weight: 400;
+            width: 100%;
+            border: none;
+            outline: none;
+        }
+
+        ::placeholder {
+            color: #AEAEAE;
+        }
+    }
+}
+
+.donation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../assets/bg-donation.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+
+    .donation-content {
+        display: flex;
+        flex-direction: column;
+        gap: 48px;
+        padding-block: 52px;
+
+        .content-title {
+            text-align: center;
+        }
+
+        .event-card {
+            height: 480px;
+        }
+    }
+
+    .partner-container {
+        margin-top: 34px;
+        margin-bottom: 70px;
+        padding-inline: 180px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 64px;
+        box-sizing: border-box;
+
+        .partner-list {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    }
+
+    .tutorial-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-inline: 70px;
+        gap: 44px;
+        box-sizing: border-box;
+
+        .step-list {
+            display: flex;
+            width: 100%;
+            gap: 20px;
+            box-sizing: border-box;
+
+            .list {
+                display: flex;
+                flex-direction: column;
+                gap: 24px;
+                padding: 10px;
+                background-color: #FFFFFF;
+                border-radius: 20px;
+                box-sizing: border-box;
+                box-shadow: 0px 4px 20px 0px rgb(0, 40, 82, 30%);
+            }
+        }
+    }
+}
+
+.detail-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    background-image: url('../assets/bg-volunteer-3.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 108px;
+
+    .detail-content {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 70px;
+        gap: 20px;
+        box-sizing: border-box;
+
+        .donasi-detail {
+            display: flex;
+            align-items: flex-start;
+            width: 100%;
+            gap: 32px;
+            box-sizing: border-box;
+
+            .detail {
+                display: flex;
+                flex-direction: column;
+                width: 486px;
+                height: 664px;
+                gap: 16px;
+                box-sizing: border-box;
+
+                .tag {
+                    display: flex;
+                    width: fit-content;
+                    gap: 4px;
+                    box-sizing: border-box;
+    
+                    .event-tag {
+                        width: 122px;
+                        text-align: center;
+                        box-sizing: border-box;
+                        padding: 4px 26px;
+                        border-radius: 20px;
+                        color: #FFFFFF;
+                        background-color: #027FFF;
+                    }
+                }
+    
+                .text-title {
+                    font-size: 32px;
+                    font-weight: 600;
+                    color: #003266;
+                }
+
+                .text-lg {
+                    font-size: 20px;
+                }
+
+                .text-normal {
+                    font-size: 16px;
+                }
+
+                .date-location {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+                    width: 100%;
+                    gap: 12px;
+                    padding-block: 20px;
+                    box-sizing: border-box;
+                    color: #003266;
+                    border-block: 1px solid #003266;
+
+                    .date {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                        box-sizing: border-box;
+
+                        .date-day {
+                            display: flex;
+                            align-items: center;
+                            gap: 12px;
+                            box-sizing: border-box;
+                        }
+                    }
+                    
+                    .location {
+                        display: flex;
+                        align-items: center;
+                        gap: 12px;
+                        box-sizing: border-box;
+                    }
+                }
+
+                .profile-creator {
+                    display: flex;
+                    align-items: center;
+                    width: 100%;
+                    gap: 20px;
+                    box-sizing: border-box;
+                }
+
+                .information {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 16px;
+                    box-sizing: border-box;
+
+                    .information-radio {
+                        position: relative;
+                        display: flex;
+                        width: 100%;
+                        gap: 24px;
+                        padding-block: 20px;
+                        box-sizing: border-box;
+                        border-block: 1px solid #003266;
+
+                        input[type=radio] {
+                            display: none;
+                        }
+
+                        label {
+                            width: 170px;
+                            text-align: center;
+                            padding-block: 8px;
+                            border-radius: 10px;
+                            cursor: pointer;
+                            transition: all 0.4s ease-in-out;
+                        }
+
+                        label {
+                            color: #003266;
+                            background-color: #FFFFFF;
+                            border: 1px solid #003266;
+                        }
+                        
+                        label:hover, label.active {
+                            color: #FFFFFF;
+                            background-color: #027FFF;
+                            border: 1px solid #027FFF;
+                        }
+                    }
+
+                    .peer-content {
+                        position: relative;
+                        text-align: justify;
+                        display: none;
+                        height: 100%;
+                        padding: 0 8px 8px 8pxx;
+
+                        .donatur-list {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 20px;
+                            width: 100%;
+                            box-sizing: border-box;
+                            
+                            .list-card {
+                                display: flex;
+                                align-items: center;
+                                width: 100%;
+                                padding: 12px 24px;
+                                gap: 20px;
+                                color: #003266;
+                                background-color: #FFFFFF;
+                                border-radius: 10px;
+                                box-sizing: border-box;
+                                box-shadow: 0px 4px 10px 0px rgb(0, 0, 0, 25%);
+
+                                .donatur-text {
+                                    display: flex;
+                                    flex-direction: column;
+                                    gap: 4px;
+                                    box-sizing: border-box;
+
+                                    .text-lg {
+                                        font-size: 20px;
+                                        font-weight: 500;
+                                    }
+                                }
+                            }
+                        }
+                      }
+                      
+                      .peer-content.visible {
+                        display: block;
+                      }
+                      
+                      .peer-content.hidden {
+                        display: none;
+                      }
+                }
+            }
+
+            .transaksi {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 310px;
+                gap: 28px;
+                box-sizing: border-box;
+
+                .transaksi-donasi {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    padding: 20px 16px;
+                    gap: 20px;
+                    color: #003266;
+                    background-color: #FFFFFF;
+                    border-radius: 10px;
+                    box-shadow: 0px 4px 10px 0px rgb(0, 40, 82, 30%);
+                    box-sizing: border-box;
+    
+                    .input-nominal {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        width: 100%;
+                        box-sizing: border-box;
+                    }
+    
+                    button {
+                        width: 48px;
+                        height: 48px;
+                        border-radius: 8px;
+                        background-color: #027FFF;
+                        cursor: pointer;
+                        box-sizing: border-box;
+                    }
+    
+                    p, a {
+                        padding: 8px;
+                        text-align: center;
+                        box-sizing: border-box;
+                    }
+    
+                    a {
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: #FFFFFF;
+                        background-color: #027FFF;
+                        border-radius: 10px;
+                        box-sizing: border-box;
+                        cursor: pointer;
+                        transition: all 0.4s ease-in-out;
+                    }
+                    
+                    a:hover {
+                        background-color: #006cd8;
+                    }
+                }
+
+                .donatur {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 18px;
+                    box-sizing: border-box;
+
+                    .donatur-list {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        gap: 12px;
+                        box-sizing: border-box;
+
+                        .donatur-card {
+                            display: flex;
+                            flex-direction: column;
+                            padding-inline: 16px;
+                            border-radius: 10px;
+                            box-sizing: border-box;
+                            background-color: #FFFFFF;
+                            box-shadow: 0px 4px 10px 0px rgb(0, 40, 82, 30%);
+
+                            .card-header {
+                                display: flex;
+                                align-items: center;
+                                gap: 16px;
+                                padding-block: 12px;
+                                border-bottom: 1px solid #003266;
+                                box-sizing: border-box;
+                            }
+
+                            .card-body {
+                                padding-block: 12px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .pembayaran-container {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            width: 100%;
+            gap: 20px;
+            box-sizing: border-box;
+
+            .pembayaran-content {
+                display: flex;
+                flex-direction: column;
+                width: 970px;
+                padding: 32px;
+                gap: 24px;
+                background-color: #FFFFFF;
+                border: 2px solid #027FFF;
+                border-radius: 20px;
+                box-sizing: border-box;
+
+                .content-detail {
+                    display: flex;
+                    width: 100%;
+                    gap: 16px;
+                    box-sizing: border-box;
+                }
+
+                .detail {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+                    box-sizing: border-box;
+    
+                    .tag {
+                        display: flex;
+                        width: fit-content;
+                        gap: 4px;
+                        box-sizing: border-box;
+        
+                        .event-tag {
+                            width: 122px;
+                            text-align: center;
+                            box-sizing: border-box;
+                            padding: 4px 26px;
+                            border-radius: 20px;
+                            color: #FFFFFF;
+                            background-color: #027FFF;
+                        }
+                    }
+        
+                    .text-title {
+                        font-size: 32px;
+                        font-weight: 600;
+                        color: #003266;
+                    }
+    
+                    .text-lg {
+                        font-size: 20px;
+                    }
+    
+                    .text-normal {
+                        font-size: 16px;
+                    }
+    
+                    .date-location {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        width: 100%;
+                        gap: 12px;
+                        padding-block: 20px;
+                        box-sizing: border-box;
+                        color: #003266;
+                        border-block: 1px solid #003266;
+    
+                        .date {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            width: 100%;
+                            box-sizing: border-box;
+    
+                            .date-day {
+                                display: flex;
+                                align-items: center;
+                                gap: 12px;
+                                box-sizing: border-box;
+                            }
+                        }
+                        
+                        .location {
+                            display: flex;
+                            align-items: center;
+                            gap: 12px;
+                            box-sizing: border-box;
+                        }
+                    }
+    
+                    .profile-creator {
+                        display: flex;
+                        align-items: center;
+                        width: 100%;
+                        gap: 20px;
+                        box-sizing: border-box;
+                    }
+                }
+            }
+
+            .profile-container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                box-sizing: border-box;
+
+                .profile {
+                    display: flex;
+                    align-items: center;
+                    color: #003266;
+                    gap: 16px;
+                }
+
+                a {
+                    width: 170px;
+                    text-align: center;
+                    padding-block: 8px;
+                    cursor: pointer;
+                    color: #003266;
+                    background-color: #FFFFFF;
+                    border: 1px solid #027FFF;
+                    border-radius: 8px;
+                }
+            }
+
+            .transaksi-donasi {
+                display: flex;
+                flex-direction: column;
+                width: 310px;
+                gap: 54px;
+                padding: 24px 16px;
+                background-color: #FFFFFF;
+                border-radius: 20px;
+                box-shadow: 0px 4px 20px 0px rgb(0, 40, 82, 30%);
+                box-sizing: border-box;
+
+                .detail-transaksi {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    gap: 12px;
+                    color: #003266;
+                    box-sizing: border-box;
+
+                    .sub-total, .fee, .total {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                }
+
+                .button {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    gap: 12px;
+
+                    button, a {
+                        text-align: center;
+                        width: 100%;
+                        padding-block: 8px;
+                        border-radius: 8px;
+                    }
+
+                    button {
+                        background-color: #027FFF;
+                        border: 2px solid #027FFF;
+                    }
+
+                    a {
+                        background-color: #FFFFFF;
+                        border: 2px solid #027FFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
